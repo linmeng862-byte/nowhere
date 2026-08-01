@@ -1,5 +1,5 @@
 """Nowhere HTTP server — FastMCP streamable-http for Zeabur deployment."""
-import os, sys
+import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 from nowhere.server import open_door_impl, walk_impl, look_around_impl, listen_impl
 from nowhere.server import ask_impl, walk_to_impl, where_am_i_impl, send_postcard_impl
